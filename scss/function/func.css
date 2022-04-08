@@ -1,0 +1,21 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container div {
+  height: 50px;
+}
+
+.container .left {
+  float: left;
+  width: 40%;
+  background-color: yellow;
+}
+
+.container .right {
+  float: left;
+  width: 60%;
+  background-color: cyan;
+}
+/*# sourceMappingURL=func.css.map */

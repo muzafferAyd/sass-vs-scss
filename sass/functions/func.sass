@@ -1,0 +1,16 @@
+@function themes ($type)
+    @if ($type == "dark")
+        @return #382131
+    @else if ($type == "light")
+        @return #e3b6d5
+    @else if ($type == "blue")
+        @return #2c2c8f
+
+@function convertor ($px)
+    @return $px / 16 + rem
+
+body
+    background-color: themes(light)
+
+.title
+    font-size: convertor(30)

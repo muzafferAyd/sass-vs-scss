@@ -1,0 +1,23 @@
+@function grid($value , $total){
+    @return ( $value*100 / $total)+%
+} 
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+ 
+    div{
+        height: 50px;
+    }
+    .left{
+        float: left;
+        width: grid(4,10 );
+        background-color: yellow;
+    }
+
+    .right{
+        float: left;
+        width: grid(6,10 );
+        background-color: cyan;
+    }
+}

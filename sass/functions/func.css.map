@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWA,AAAA,IAAI,CAAC;EACD,gBAAgB,EARJ,OAAO;CAQe;;AAEtC,AAAA,MAAM,CAAC;EACH,SAAS,EAND,QAAc;CAMK",
+    "sources": [
+        "func.sass"
+    ],
+    "names": [],
+    "file": "func.css"
+}
