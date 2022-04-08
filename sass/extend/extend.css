@@ -1,7 +1,4 @@
 .message, .error-message, .success-message, .info-message {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 300px;
   padding: 15px;
   margin: 15px;

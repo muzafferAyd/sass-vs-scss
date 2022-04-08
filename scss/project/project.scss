@@ -1,0 +1,24 @@
+$myWidth: 10;
+$columns: 12;
+
+
+@mixin w-x {
+    @for $i from 1 through $myWidth {
+        .w-#{$i*100} {width: $i*100 +px;}
+    }
+}
+
+
+// %float-styles {
+//   float: left;
+// }
+
+// @mixin col-x-list {
+//   @for $i from 1 through $columns {
+//       .col-#{$i}-list { @extend %float-styles; }
+//   }
+// }
+
+// @include col-x-list;
+
+@include w-x;
