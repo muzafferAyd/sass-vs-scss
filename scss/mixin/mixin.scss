@@ -1,0 +1,26 @@
+@mixin boyut ($w , $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin color ($bg, $color) {
+    background-color: $bg;
+    color: $color;
+}
+
+@mixin threeDots {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.banner {
+    float: left;
+    border: 1px solid gray;
+    @include boyut(500px, 100px );
+    @include color( #fff, red);
+    @include threeDots();
+
+}

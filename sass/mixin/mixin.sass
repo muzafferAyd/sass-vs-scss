@@ -1,0 +1,28 @@
+@mixin boyut
+    width: 100px
+    height: 100px
+
+@mixin dimension($width, $height)
+    width: $width
+    height: $height
+
+@mixin threeDots
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    
+
+
+.box
+    float: left
+    background-color: yellow
+    @include boyut
+
+.box2
+    float: left
+    background-color: green
+    @include dimension(200px, 200px )
+    // @include dimension(  $width: 150px, $height:150px )
+    @include threeDots
+    
+    

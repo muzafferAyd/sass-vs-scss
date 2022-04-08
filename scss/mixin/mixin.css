@@ -1,0 +1,12 @@
+.banner {
+  float: left;
+  border: 1px solid gray;
+  width: 500px;
+  height: 100px;
+  background-color: #fff;
+  color: red;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=mixin.css.map */
