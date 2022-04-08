@@ -1,0 +1,8 @@
+$color : ( "light": #fff, "dark": #000, "gray": #aaa);
+$size : ( "small": 12px, "middle": 16px, "big": 18px);
+
+
+body {
+    background-color: map-get($color, "dark" );
+    font-size: map-get($size, "small" );
+}
