@@ -1,0 +1,21 @@
+.message, .error-message, .success-message, .info-message {
+  float: left;
+  width: 300px;
+  padding: 15px;
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.error-message {
+  background-color: red;
+}
+
+.success-message {
+  background-color: green;
+}
+
+.info-message {
+  background-color: orange;
+}
+/*# sourceMappingURL=extend.css.map */
